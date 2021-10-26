@@ -10,3 +10,11 @@ and more..
 
 Val & Var both implements the Expression interface.
 
+There are the abstract classes:
+* Binary Expression - every binary operation extends this abstract class.
+* Unary Expression - the unary operations extends it, such as Not.
+* Base Expression - both Binary Expression and Unary expression extends it.
+
+Eventually there are the operation themselves such as - And, Or, Xor, Nor, Nand, Not...
+Every opertaion has different implementations. 
+
